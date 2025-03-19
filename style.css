@@ -109,21 +109,27 @@ nav #header {
 
 #form{
     background-color: #fFF;
-    text-align: center;
+
     width: 90%;
     margin: auto;
     margin-top:20px ;
-    font-size: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   border-radius:  5px;
+    
     
 }
-#form h1{
-    font-size: 30px;
+#form .inputs{
+    padding: 20px;
+    font-size: 20px;
 }
-
-#form input{
-    margin-top: 15px;
-    margin-left: 10px;
-    width: 400px;
-    font-size: 30px;
-
+#form .inputs input{
+   
+    font-size: 20px;
+    padding: 5px;
+}
+#form .inputs  button{
+    background-color: #2cbec3;
 }
