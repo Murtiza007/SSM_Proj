@@ -107,29 +107,55 @@ nav #header {
     
 }
 
-#form{
-    background-color: #fFF;
 
+#Container{
+
+    background-color: #fFF;
     width: 90%;
     margin: auto;
     margin-top:20px ;
     margin-bottom: 30px;
+    padding: 20px;
+    border-radius:  5px;
+}
+#Container h2{
+   text-align: center;
+  
+}
+
+#tiles{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-   border-radius:  5px;
+   
+    margin-bottom: 60px;
+
+
+}
+#form{
+   
+    
+
     
     
 }
 #form .inputs{
     padding: 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 #form .inputs input{
    
-    font-size: 20px;
+    font-size: 18px;
     padding: 5px;
+    width: 260px;
 }
 #form .inputs  button{
     background-color: #2cbec3;
+}
+
+footer{
+    background-color: #1d3557;
+    text-align: center;
+    color: #fFF;
+    padding: 5px;
 }
